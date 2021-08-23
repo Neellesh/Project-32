@@ -1,8 +1,8 @@
 class Ball {
     constructor (x,y,width,height){
        var options = {
-       restitution: 0.95,
-       density: 0.01 };
+       restitution: 0.95
+      };
  
        this.r = 35;
        this.width = width;
@@ -17,7 +17,7 @@ class Ball {
        var pos = this.body.position
  
        push();
-       ellipseMode(CENTER);
+       ellipseMode(RADIUS);
        ellipse(pos.x,pos.y,this.r);
        pop();
     }
