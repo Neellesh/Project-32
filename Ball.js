@@ -4,7 +4,7 @@ class Ball {
        restitution: 0.95
       };
  
-       this.r = 20;
+       this.r = 22;
        this.width = width;
        this.height = height;
       
