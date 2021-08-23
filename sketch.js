@@ -29,9 +29,10 @@ function setup() {
 }
 
 function draw() {
-  background(51);  
-  
-  Engine.update(engine)
+  background(51);
+
+  Engine.update(engine);
+
   drawSprites();
 
   
