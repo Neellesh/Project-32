@@ -1,10 +1,10 @@
 class Ball {
     constructor (x,y,width,height){
        var options = {
-       restitution: 0.95
-      };
+       restitution: 0.95,
+        };
  
-       this.r = 22;
+       this.r = 20;
        this.width = width;
        this.height = height;
       
